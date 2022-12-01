@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    display: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#hnav {
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    padding: 8px;
+    background: green;
+}
+
+#left-hnav {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+#right-hnav {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+#bottom {
+    display: flex;
+    background: purple;
+}
+
+#vnav {
+    background: pink;
+}
+
+ul {
+    list-style: none;
+}
